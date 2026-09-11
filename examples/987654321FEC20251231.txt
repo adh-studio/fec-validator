@@ -1,0 +1,16 @@
+JournalCode|JournalLib|EcritureNum|EcritureDate|CompteNum|CompteLib|CompAuxNum|CompAuxLib|PieceRef|PieceDate|EcritureLib|Debit|Credit|EcritureLet|DateLet|ValidDate|Montantdevise|Idevise
+VT|Ventes|VT0001|20250115|41100000|Clients|CLI001|Client Alpha|F2025-001|20250115|Facture client|1200,00|0,00|||20250120||
+VT|Ventes|VT0001|20250115|70600000|Prestations de services|||F2025-001|20250115|Facture client|0,00|1000,00|||20250120||
+VT|Ventes|VT0001|20250115|44571000|TVA collectée|||F2025-001|20250115|Facture client|0,00|190,00|||20250120||
+AC|Achats|AC0001|20250120|60610000|Fournitures non stockables|||FA-778|20250118|Facture fournisseur|100.00|0,00|||20250121||
+AC|Achats|AC0001|20250120|44566000|TVA déductible|||FA-778|20250118|Facture fournisseur|20,00|0,00|||20250121||
+AC|Achats|AC0001|20250120|40100000|Fournisseurs|FRS001||FA-778|20250118|Facture fournisseur|0,00|120,00|||20250121||
+BQ|Banque|BQ0001|20250210|51200000|Banque|||RLV-02|20250210|Règlement client|1200,00|0,00|||20250211||
+BQ|Banque|BQ0001|20250211|41100000|Clients|CLI001|Client Alpha|RLV-02|20250210|Règlement client|0,00|1200,00|A||20250211||
+OD|Operations diverses|OD0001|20250230|62260000|Honoraires|||OD-01|20250228|Honoraires expert-comptable|600,00|0,00|||20250301||
+OD|Operations diverses|OD0001|20250230|40100000|Fournisseurs|FRS003|Cabinet Delta|OD-01|20250228|Honoraires expert-comptable|0,00|600,00|||20250301||
+VT|Ventes|VT0002|20250320|41100000||CLI002|Client Epsilon|F2025-014|20250320|Facture client|300,00|0,00|||20250321||USD
+VT|Ventes|VT0002|20250320|70600000|Prestations de services|||F2025-014|20250320|Facture client|0,00|300,00|||20250321||
+VT|Ventes|VT0003|20250402|41100000|Clients|CLI001|Client Alpha|F2025-020|20250402|Facture client|50,00|50,00|||20250403||
+AC|Achats|AC0002|20260115|60400000|Achats de prestations|||FA-901|20260115|Facture fournisseur|80,00|0,00|||20260110||
+AC|Achats|AC0002|20260115|40100000|Fournisseurs|FRS001|Fournisseur Beta|FA-901|20260115|Facture fournisseur|0,00|80,00|||20260110||

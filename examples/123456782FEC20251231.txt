@@ -1,0 +1,11 @@
+JournalCode	JournalLib	EcritureNum	EcritureDate	CompteNum	CompteLib	CompAuxNum	CompAuxLib	PieceRef	PieceDate	EcritureLib	Debit	Credit	EcritureLet	DateLet	ValidDate	Montantdevise	Idevise
+VT	Ventes	VT0001	20250115	41100000	Clients	CLI001	Client Alpha	F2025-001	20250115	Facture client	1200,00	0,00	A	20250210	20250120		
+VT	Ventes	VT0001	20250115	70600000	Prestations de services			F2025-001	20250115	Facture client	0,00	1000,00			20250120		
+VT	Ventes	VT0001	20250115	44571000	TVA collectée			F2025-001	20250115	Facture client	0,00	200,00			20250120		
+AC	Achats	AC0001	20250120	60610000	Fournitures non stockables			FA-778	20250118	Facture fournisseur	100,00	0,00			20250121		
+AC	Achats	AC0001	20250120	44566000	TVA déductible			FA-778	20250118	Facture fournisseur	20,00	0,00			20250121		
+AC	Achats	AC0001	20250120	40100000	Fournisseurs	FRS001	Fournisseur Beta	FA-778	20250118	Facture fournisseur	0,00	120,00			20250121		
+BQ	Banque	BQ0001	20250210	51200000	Banque			RLV-02	20250210	Règlement client	1200,00	0,00			20250211		
+BQ	Banque	BQ0001	20250210	41100000	Clients	CLI001	Client Alpha	RLV-02	20250210	Règlement client	0,00	1200,00	A	20250210	20250211		
+AC	Achats	AC0002	20250305	60400000	Achats de prestations			INV-55	20250301	Facture en dollars	92,00	0,00			20250306	100,00	USD
+AC	Achats	AC0002	20250305	40100000	Fournisseurs	FRS002	Supplier Gamma	INV-55	20250301	Facture en dollars	0,00	92,00			20250306	-100,00	USD
