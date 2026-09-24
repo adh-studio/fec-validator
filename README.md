@@ -28,10 +28,10 @@ Le paquet n'est pas publié sur PyPI. Il s'installe depuis le dépôt Git :
 
 ```bash
 # Comme outil en ligne de commande isolé, avec uv
-uv tool install git+https://github.com/heniwizeup-dotcom/fec-validator.git
+uv tool install git+https://github.com/adh-studio/fec-validator.git
 
 # Ou avec pip, dans un environnement virtuel
-pip install git+https://github.com/heniwizeup-dotcom/fec-validator.git
+pip install git+https://github.com/adh-studio/fec-validator.git
 ```
 
 Depuis une copie locale du dépôt :
